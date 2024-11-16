@@ -3,10 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WebGL Farm</title>
+  <title>WebGL Ферма</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+  </style>
 </head>
 <body>
-  <h1>Добро пожаловать на ферму!</h1>
+  <h1 id="title">Добро пожаловать на ферму!</h1>
   <canvas id="farmCanvas"></canvas>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r146/three.min.js"></script>
   <script src="app.js"></script>
